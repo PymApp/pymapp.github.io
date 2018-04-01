@@ -154,6 +154,12 @@ body {
 .jumbotron .container {
   padding: initial;
   color: white;
+  width: 100%;
+}
+
+.jumbotron .row {
+  margin-left: 120px;
+  margin-right: 120px;
 }
 
 .jumbotron .container h1 {
@@ -166,7 +172,15 @@ body {
 }
 
 .jumbotron .container p {
-  margin-top: 30px;
+  margin-top: 120px;
+  margin-right: 80px;
+  font-size: 26px;
+  color: white;
+}
+
+.jumbotron .row img {
+  margin-left: 20px;
+  margin-bottom: -240px;
 }
 
 .jumbotron .container .btn {
@@ -198,6 +212,15 @@ section .container {
 
 section#portfolio {
   background-image: url(http://dan.motiongear.org/images/foliobgd.png);
+}
+
+section#about .container {
+  background: white;
+}
+
+section#about .container p {
+  color: grey;
+  text-align: justify;
 }
 
 section#portfolio .container h1,
