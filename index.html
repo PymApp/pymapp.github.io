@@ -14,7 +14,7 @@
 </head>
 <body class="text-center" data-spy="scroll" data-target=".navbar" data-offset="180">
   <div id="#wrapper" class="">
-    <nav class="navbar" id="my-navbar">
+    <nav id="navbar" class="navbar" id="my-navbar">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="toggled" data-target="#navbar-collapse">
@@ -23,8 +23,8 @@
                 <div class="collapse navbar-collapse">
                   <div class="container">
                     <ul class="nav navbar-nav navbar-right">
-                      <li><a href="#home">Qué es PymApp?</a></li>
-                      <li><a href="#bio">Características</a></li>
+                      <li><a href="#about">Qué es PymApp?</a></li>
+                      <li><a href="#features">Funcionalidades</a></li>
                       <li><a href="#contact">Contacto</a></li>
                     </ul>
                   </div>
@@ -35,10 +35,20 @@
 
     <div id="content-wrapper">
         <!-- front page -->
-        <section id="home" class="jumbotron vertical-centre bgd shadow" data-speed="5" data-type="background">
-            <div class="container">
-              <img src="./img/banner.svg" width="600"></img>
+        <section class="jumbotron vertical-top bgd shadow" data-speed="5" data-type="background">
+          <div class="container">
+            <img src="./img/banner.svg" width="400"></img>
+          </div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col">
+              <img src="./img/top_image.png" width="800"></img>
+              </div>
+              <div class="col">
+              <p>PymApp es una apl</p>
+              </div>
             </div>
+          </div>
         </section>
 
         <!-- about -->
@@ -63,7 +73,7 @@
         <!-- features -->
         <section id="features" class="bgd shadow" data-speed="5" data-type="background">
           <div class="container">
-            <h1 class="page-header">Features</h1>
+            <h1 class="page-header">Funcionalidades</h1>
             <div class="row">
               <div class="col-md-4">
                   <img src="./img/search.svg" width="200"/>
@@ -82,50 +92,19 @@
         <!-- contact -->
         <section id="contact">
           <div class="container">
-            <h1 class="page-header">Contact</h1>
+            <h1 class="page-header">Contacto</h1>
             <div class="row">
-              <div class="col-md-4">
+              <div class="col-md-6">
                   <a href="https://www.facebook.com/PymApp">Facebook</a>
               </div>
-              <div class="col-md-4">
+              <div class="col-md-6">
                   <a href="mailto:pymappproject@gmail.com">Mail</a>
               </div>
-              <div class="col-md-4">
-                  <a href="https://github.com/serbelga"> <i class="far fa-circle"></i></a>
-              </div>
-
-              <!--
-                <div class="col-sm-5">
-                  <p>Contact me and I’ll get back to you within a day.</p>
-                  <p><i class="glyphicon glyphicon-map-marker"></i> Sydney, Australia</p>
-                  <p><i class="glyphicon glyphicon-phone"></i> +61 432 949 360</p>
-                  <p><i class="glyphicon glyphicon-envelope"></i> email@domain.com</p>
-                </div>
-                <div class="col-sm-7">
-                  <form role="form" id="contact-form">
-                    <div class="row">
-                      <div class="col-sm-6 form-group">
-                        <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
-                      </div>
-                      <div class="col-sm-6 form-group">
-                        <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <textarea class="form-control" id="message" name="message" placeholder="Message" rows="5"></textarea>
-                    </div>
-                    <button id="form-submit" class="btn btn-success btn-md pull-right" type="submit">Send</button>
-                    <div id="form-feedback" class="pull-right text-right">Message sent!
-                      <br><small>(not really, it's a demo)</small></div>
-                  </form>
-                </div>
-              </div>
-            -->
             </div>
           </section>
 
           <footer class="container-fluid">
-            <a class="top" href="#home" title="Back to top">
+            <a class="top" href="#navbar" title="Back to top">
               <p><i class="glyphicon glyphicon-chevron-up"></i>
                 <br>Volver al inicio</p>
             </a>
