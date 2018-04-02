@@ -141,7 +141,6 @@ body {
 
 .jumbotron {
   width: 100%;
-
   margin: 0;
   /*background-image: url("../img/top_image.png");*/
   background-color: #4db6ac;
@@ -183,11 +182,28 @@ body {
   margin-bottom: -240px;
 }
 
+.jumbotron .row img:hover {
+  /*margin-left: 20px;*/
+  margin-bottom: -240px;
+  transform: translate(0, -72px);
+  transition: all .5s ease-out;
+}
+
 .jumbotron .container .btn {
-  margin: 15px 10px;
-  -webkit-box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.4);
-  -moz-box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.4);
-  box-shadow: 5px 5px 15px -3px rgba(0, 0, 0, 0.4);
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+}
+
+.jumbotron .container .btn:hover{
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+  transform: translate(0, -4px);
+}
+
+.jumbotron .container .btn img {
+  margin: 0px;
 }
 
 .vertical-centre {
@@ -220,10 +236,8 @@ section#about .container p {
   text-align: justify;
 }
 
-section#portfolio .container h1,
-section#portfolio .container h3 {
-  color: white;
-  text-shadow: 1px 2px 6px rgba(0, 0, 0, 0.8);
+section#features {
+
 }
 
 section#contact .container {
@@ -253,9 +267,9 @@ section#contact .glyphicon {
 
 .bgd {
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: bottom;
   background-attachment: fixed;
-  background-size: cover;
+  background-size:35%;
 }
 
 @media(max-width: 768px) {
