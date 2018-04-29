@@ -18,6 +18,11 @@ body {
   }
 }
 
+@font-face {
+  font-family: "Avenir Font";
+  src: url(../fonts/Avenir/Avenir-Regular.otf) format("truetype");
+}
+
 #wrapper {
   padding-right: 0;
   -webkit-transition: all 0.5s ease;
@@ -239,6 +244,8 @@ section#about {
 section#about .container p {
   color: grey;
   text-align: justify;
+  font-family: "Avenir Font";
+  text-align: center;
 }
 
 section#features {
