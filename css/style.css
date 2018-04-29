@@ -185,6 +185,11 @@ body {
 .jumbotron .row img:hover {
   /*margin-left: 20px;*/
   margin-bottom: -240px;
+}
+
+.top-image img:hover {
+  /*margin-left: 20px;*/
+  margin-bottom: -240px;
   transform: translate(0, -72px);
   transition: all .5s ease-out;
 }
