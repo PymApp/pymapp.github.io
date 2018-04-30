@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  font: 18px "Raleway", sans-serif;
+  font: 18px "Avenir Font", sans-serif;
   line-height: 1.8;
   color: grey;
 }
@@ -168,7 +168,7 @@ body {
 
 .jumbotron .container h1 {
   text-shadow: 1px 3px 8px rgba(0, 0, 0, 0.8);
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Avenir Font', sans-serif;
 }
 
 .jumbotron .container h3 {
@@ -179,6 +179,7 @@ body {
   margin-top: 200px;
   /*margin-right: 80px;*/
   font-size: 26px;
+  font-family: "Avenir Font";
   color: white;
 }
 
@@ -336,7 +337,7 @@ section#contact .glyphicon {
 
 a {
   color: grey;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Avenir Font', sans-serif;
   display: inline-block;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -346,7 +347,7 @@ a {
 
 footer-text {
   font-size: 12px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Avenir Font', sans-serif;
   cursor: pointer;
   color: grey;
 }
